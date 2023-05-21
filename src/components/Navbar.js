@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { logOut } from "../auth/firebase";
 import { AuthContext } from "../context/AuthContext";
 
+
 const Navbar = () => {
   const navigate = useNavigate();
   const { currentUser } = useContext(AuthContext);
